@@ -1,0 +1,140 @@
+.gpt3__navbar{
+    padding-top:30px;
+}
+
+.gpt3__navbar-links_logo img{
+    height:16px;
+}
+
+.gpt3__navbar-links_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gpt3__navbar-links-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gpt3__navbar-links-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gpt3__navbar-links-option p{
+    color:#fff;
+    font-size:0.9rem;
+    font-weight:200;
+    margin-bottom: 0;
+}
+
+.gpt3__navbar-links-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.gpt3__navbar-links-action1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gpt3__navbar-links-action1 p{
+    margin-right:30px;
+    color:#fff;
+    font-size:0.9rem;
+    font-weight:200;
+    margin-bottom: 0;
+}
+
+.gpt3__navbar-links-action2 button{
+    background: #FF4820;
+    border-radius: 5px;
+    padding:10px 30px;
+    font-size:0.9rem;
+}
+
+.gpt3__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.gpt3__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+    display: none;
+}
+
+.gpt3__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0rem 1rem 2rem 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar-mobile{
+    display: none;
+}
+
+@media screen and (max-width:767px){
+    .gpt3__navbar-links-text{
+        display: none;
+    }
+    .gpt3__navbar-links-cta{
+        display: none;
+    }
+    .gpt3__navbar-links_logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gpt3__navbar{
+        padding-top: 20px;
+    }
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+    }
+    .gpt3__navbar-mobile{
+        display: block;
+    }
+}

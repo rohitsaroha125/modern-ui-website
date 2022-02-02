@@ -1,0 +1,115 @@
+.gpt3__whatgpt3 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 4rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 12rem;
+    margin-top:3rem;
+}
+
+.what__row1 h4{
+    color:#fff;
+}
+
+.what__row1 h4::before{
+    background: linear-gradient(
+103.22deg
+, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 38px;
+    margin-top: -9px;
+}
+
+.what__row1 p{
+    color: #81AFDD;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+}
+
+.what__row2{
+    margin-top:80px
+}
+
+.what__row2 h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.what__row2 p{
+    text-align: right;
+}
+
+.what_row2_para{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.what_row3{
+    margin-top:80px
+}
+
+.what_row3 h4{
+    color:#fff;
+}
+
+.what_row3 h4::before{
+    background: linear-gradient(
+103.22deg
+, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 38px;
+    margin-top: -9px;
+}
+
+.what_row3 p{
+    margin-top: 60px;
+    color: #81AFDD;
+    font-weight: 200;
+}
+
+@media screen and (max-width:767px){
+    .gpt3__whatgpt3{
+        margin-top:0px;
+        padding:4rem 2rem;
+        margin-bottom:4rem;
+    }
+    .what_row2_para{
+        justify-content: start;
+        margin-top:15px
+    }
+    .what_row3 .col-sm-4{
+        margin-bottom: 60px;
+    }
+    .what_row3 p{
+        margin-top:15px;
+    }
+    .feature_cards{
+        margin-top:4rem !important
+    }
+}

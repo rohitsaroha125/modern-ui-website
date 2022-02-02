@@ -1,0 +1,42 @@
+.cta{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    padding:5rem 4rem;
+    border-radius: 10.7236px;
+    margin-top:10rem;
+    margin-bottom: 10rem;
+}
+
+.cta p{
+    color: #0E0E0E;
+}
+
+.cta h4{
+    color: #000000;
+    font-size:2rem;
+    font-weight: 700;
+}
+
+.cta button{
+    background: #000000;
+    border:unset;
+    padding:15px 45px;
+    border-radius: 30px;
+    font-size:1rem;
+}
+
+.cta_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px){
+    .cta{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding: 5rem 2rem;
+    }
+    .cta_button{
+        margin-top:30px
+    }
+}

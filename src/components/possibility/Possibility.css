@@ -1,0 +1,39 @@
+.possible{
+    margin-top:80px;
+}
+
+.possible_para1{
+    color: #71E5FF;
+    font-size:0.9rem;
+    font-weight:200;
+}
+
+.possible h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.possible_para2{
+    color: #81AFDD;
+    margin-top:30px;
+    font-weight: 200;
+}
+
+.possible_para3{
+    color: #FF8A71;
+    font-size:0.9rem;
+    font-weight:200;
+    margin-top:30px;
+}
+
+.possible_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px){
+    .possible_content{
+        margin-top:60px
+    }
+}
